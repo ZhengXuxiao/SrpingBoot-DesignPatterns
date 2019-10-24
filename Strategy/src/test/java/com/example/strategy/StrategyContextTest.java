@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
  * @Description:
  */
 @SpringBootTest
-public class HelloStrategyContextTest {
+public class StrategyContextTest {
     @Autowired
     HelloStrategyContext helloStrategyContext;
 

@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import javax.annotation.Resource;
 
 @SpringBootTest
-class StrategyApplicationTests {
+class StrategyResourceTest {
 
 	@Resource(name = "ChineseHelloStrategy")
 	HelloStrategy chineseHelloStrategy;
