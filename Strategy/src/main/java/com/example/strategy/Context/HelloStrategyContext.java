@@ -18,8 +18,6 @@ public class HelloStrategyContext {
     @Autowired
     Map<String, HelloStrategy> helloStrategyMap = new ConcurrentHashMap<>(2);
 
-    HelloStrategy helloStrategy;
-
     public HelloStrategy getHelloStrategy(String usedHelloStrategy){
         return helloStrategyMap.get(usedHelloStrategy);
     }
